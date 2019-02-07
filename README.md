@@ -1,4 +1,5 @@
 # calculate
-
-## JS新手城第三關
-(vue-calculator-yuhan.surge.sh)
+```
+六角 JS新手城第三關
+```
+http://vue-calculator-yuhan.surge.sh/
