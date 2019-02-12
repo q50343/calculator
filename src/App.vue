@@ -35,10 +35,10 @@ export default {
     displayInput() {
       if (isNaN(this.current)) {
         let str = this.current
-          .replace(/\*/g, " × ")
-          .replace(/\//g, " ÷ ")
-          .split(" ")
-        return str.map(s => this.numberWithCommas(s)).join(" ")
+          .replace(/\*/g, "×")
+          .replace(/\//g, "÷")
+          .split("")
+        return str.map(s => this.numberWithCommas(s)).join("")
       } else {
         return this.numberWithCommas(this.current)
       }
